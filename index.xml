@@ -24,4 +24,38 @@ git push -u origin master
 &lt;/span>&lt;span class="gu">#### H4
 &lt;/span>&lt;span class="gu">##### H5
 &lt;/span>&lt;span class="gu">###### H6
-&lt;/span>&lt;/code>&lt;/pre>&lt;/div></description></item><item><title>Halo</title><link>https://xiaoma8713.github.io/halo/</link><pubDate>Thu, 11 Mar 2021 15:34:31 +0800</pubDate><guid>https://xiaoma8713.github.io/halo/</guid><description>岸边擦拭 asdasdasdasldasljdla 123123 123123</description></item><item><title>关于</title><link>https://xiaoma8713.github.io/about/</link><pubDate>Sat, 29 Dec 2018 20:24:28 +0800</pubDate><guid>https://xiaoma8713.github.io/about/</guid><description>我是小马。。</description></item></channel></rss>
+&lt;/span>&lt;/code>&lt;/pre>&lt;/div></description></item><item><title>toml语法</title><link>https://xiaoma8713.github.io/posts/toml%E8%AF%AD%E6%B3%95/</link><pubDate>Fri, 12 Mar 2021 00:00:00 +0000</pubDate><guid>https://xiaoma8713.github.io/posts/toml%E8%AF%AD%E6%B3%95/</guid><description>介绍 值可以是以下形式字符串、整数、浮点数、布尔值、时间、数组或内联表
+字符串 多行字符串
+str1 = &amp;quot;&amp;quot;&amp;quot;
+文本内容
+&amp;quot;&amp;quot;&amp;quot;
+日期 ldt1 = 1979-05-27T07:32:00
+数组 #数组必须内为同一数据类型
+arr1 = [1, 2, 3]
+arr2 = [&amp;quot;red&amp;quot;, &amp;quot;blue&amp;quot;, &amp;quot;yellow&amp;quot;]
+arr3 = [[1, 2], [3, 4, 5]]
+表格[字典 map] [tab-1]
+key1 = &amp;quot;abc&amp;quot;
+key2 = 321
+#多级嵌套
+[a.b.c]
+key = &amp;quot;hehe&amp;quot;
+内联表 name = { first = &amp;quot;Tom&amp;quot;, last = &amp;quot;Preston-Werner&amp;quot; }
+表格数组 #相当于列表 数组嵌套字典
+[[list]]
+name = &amp;quot;Hammer&amp;quot;
+sku = 738594937
+[[list]]
+[[list]]
+name = &amp;quot;Nail&amp;quot;
+sku = 284758393
+color = &amp;quot;gray&amp;quot;
+对应的json:
+{
+&amp;quot;products&amp;quot;: [
+{ &amp;quot;name&amp;quot;: &amp;quot;Hammer&amp;quot;, &amp;quot;sku&amp;quot;: 738594937 },
+{ },
+{ &amp;quot;name&amp;quot;: &amp;quot;Nail&amp;quot;, &amp;quot;sku&amp;quot;: 284758393, &amp;quot;color&amp;quot;: &amp;quot;gray&amp;quot; }
+]
+}
+注意 TOML 文件必须使用 .toml 来作为其扩展名</description></item><item><title>Halo</title><link>https://xiaoma8713.github.io/halo/</link><pubDate>Thu, 11 Mar 2021 15:34:31 +0800</pubDate><guid>https://xiaoma8713.github.io/halo/</guid><description>岸边擦拭 asdasdasdasldasljdla 123123 123123</description></item><item><title>关于</title><link>https://xiaoma8713.github.io/about/</link><pubDate>Sat, 29 Dec 2018 20:24:28 +0800</pubDate><guid>https://xiaoma8713.github.io/about/</guid><description>我是小马。。</description></item></channel></rss>
