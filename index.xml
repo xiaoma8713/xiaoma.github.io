@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>我是小马</title><link>http://localhost:1313/</link><description>Recent content on 我是小马</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Fri, 12 Mar 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml"/><item><title>hugo结合githubpage部署个人网站</title><link>http://localhost:1313/posts/%E4%BD%BF%E7%94%A8hugo/</link><pubDate>Fri, 12 Mar 2021 00:00:00 +0000</pubDate><guid>http://localhost:1313/posts/%E4%BD%BF%E7%94%A8hugo/</guid><description>hugo 下载hugo 选择指定版本 https://github.com/gohugoio/hugo/releases
+使用Hugo hugo new site /path/to/quickstart
+cd /path/to/quickstart
+hugo server #默认localhost:1313，访问即可
+选择主题themes 例如：git clone https://github.com/imzeuk/hugo-theme-zozo themes/zozo
+git clone https://github.com/kakawait/hugo-tranquilpeak-theme.git themes/tranquilpeak
+该主题的文档参考：https://github.com/kakawait/hugo-tranquilpeak-theme/blob/master/docs/user.md#tranquilpeak-configuration
+将zozo下的examplesite 所有文件复制到 quickstart下
+然后修改标题等，自定义信息
+打包生成 hugo # 打包到public目录
+hugo中文 参考:https://www.gohugo.org/
+githubPage使用 参考：https://pages.github.com/
+上传到github #接hugo
+cd public
+git init
+git remote add origin 你的仓库地址
+git add .
+git commit -m&amp;quot;description&amp;quot;
+git push -u origin master
+打开yourname.github.io</description></item><item><title>markdown语法</title><link>http://localhost:1313/posts/markdown%E8%AF%AD%E6%B3%95/</link><pubDate>Fri, 12 Mar 2021 00:00:00 +0000</pubDate><guid>http://localhost:1313/posts/markdown%E8%AF%AD%E6%B3%95/</guid><description>&lt;h1 id="headings">Headings&lt;/h1>
+&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-markdown" data-lang="markdown">&lt;span class="gh"># H1
+&lt;/span>&lt;span class="gh">&lt;/span>&lt;span class="gu">## H2
+&lt;/span>&lt;span class="gu">### H3
+&lt;/span>&lt;span class="gu">#### H4
+&lt;/span>&lt;span class="gu">##### H5
+&lt;/span>&lt;span class="gu">###### H6
+&lt;/span>&lt;/code>&lt;/pre>&lt;/div></description></item><item><title>Halo</title><link>http://localhost:1313/halo/</link><pubDate>Thu, 11 Mar 2021 15:34:31 +0800</pubDate><guid>http://localhost:1313/halo/</guid><description>岸边擦拭 asdasdasdasldasljdla 123123 123123</description></item><item><title>关于</title><link>http://localhost:1313/about/</link><pubDate>Sat, 29 Dec 2018 20:24:28 +0800</pubDate><guid>http://localhost:1313/about/</guid><description>我是小马。。</description></item></channel></rss>
