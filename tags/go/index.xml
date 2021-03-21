@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>go on 小马成长记</title><link>https://xiaoma8713.github.io/tags/go/</link><description>Recent content in go on 小马成长记</description><generator>Hugo -- gohugo.io</generator><language>en</language><atom:link href="https://xiaoma8713.github.io/tags/go/index.xml" rel="self" type="application/rss+xml"/><item><title>每日一库之cobra</title><link>https://xiaoma8713.github.io/posts/go/%E6%AF%8F%E6%97%A5%E4%B8%80%E5%BA%93%E4%B9%8Bcobra/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://xiaoma8713.github.io/posts/go/%E6%AF%8F%E6%97%A5%E4%B8%80%E5%BA%93%E4%B9%8Bcobra/</guid><description>简介 cobra是一个命令行程序库
+基本使用 # 目录结构
+cmd/
+root.go
+child1cmd.go#子命令
+child2cmd.go</description></item><item><title>每日一库之strings</title><link>https://xiaoma8713.github.io/posts/go/%E6%AF%8F%E6%97%A5%E4%B8%80%E5%BA%93%E4%B9%8Bstrings/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://xiaoma8713.github.io/posts/go/%E6%AF%8F%E6%97%A5%E4%B8%80%E5%BA%93%E4%B9%8Bstrings/</guid><description>#strings常用函数
+Fields 按照空白分隔为多个字符串</description></item></channel></rss>
