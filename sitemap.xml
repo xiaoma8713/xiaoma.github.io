@@ -1,1 +1,35 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml"><url><loc>https://xiaoma8713.github.io/halo/</loc><lastmod>2021-03-11T15:34:31+08:00</lastmod></url><url><loc>https://xiaoma8713.github.io/about/</loc><lastmod>2018-12-29T20:24:28+08:00</lastmod></url><url><loc>https://xiaoma8713.github.io/tags/2021-03/</loc></url><url><loc>https://xiaoma8713.github.io/categories/</loc></url><url><loc>https://xiaoma8713.github.io/tags/go/</loc></url><url><loc>https://xiaoma8713.github.io/tags/go%E4%B8%89%E6%96%B9%E5%BA%93/</loc></url><url><loc>https://xiaoma8713.github.io/posts/%E4%BD%BF%E7%94%A8hugo/</loc></url><url><loc>https://xiaoma8713.github.io/posts/markdown%E8%AF%AD%E6%B3%95/</loc></url><url><loc>https://xiaoma8713.github.io/posts/</loc></url><url><loc>https://xiaoma8713.github.io/tags/</loc></url><url><loc>https://xiaoma8713.github.io/posts/toml%E8%AF%AD%E6%B3%95/</loc></url><url><loc>https://xiaoma8713.github.io/</loc></url><url><loc>https://xiaoma8713.github.io/posts/go/%E6%AF%8F%E6%97%A5%E4%B8%80%E5%BA%93%E4%B9%8Bcobra/</loc></url><url><loc>https://xiaoma8713.github.io/posts/go/%E6%AF%8F%E6%97%A5%E4%B8%80%E5%BA%93%E4%B9%8Bstrings/</loc></url></urlset>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://xiaoma8713.github.io/halo/</loc>
+    <lastmod>2021-03-11T15:34:31+08:00</lastmod>
+  </url><url>
+    <loc>https://xiaoma8713.github.io/about/</loc>
+    <lastmod>2018-12-29T20:24:28+08:00</lastmod>
+  </url><url>
+    <loc>https://xiaoma8713.github.io/tags/2021-03/</loc>
+  </url><url>
+    <loc>https://xiaoma8713.github.io/categories/</loc>
+  </url><url>
+    <loc>https://xiaoma8713.github.io/tags/go/</loc>
+  </url><url>
+    <loc>https://xiaoma8713.github.io/tags/go%E4%B8%89%E6%96%B9%E5%BA%93/</loc>
+  </url><url>
+    <loc>https://xiaoma8713.github.io/posts/%E4%BD%BF%E7%94%A8hugo/</loc>
+  </url><url>
+    <loc>https://xiaoma8713.github.io/posts/markdown%E8%AF%AD%E6%B3%95/</loc>
+  </url><url>
+    <loc>https://xiaoma8713.github.io/posts/</loc>
+  </url><url>
+    <loc>https://xiaoma8713.github.io/tags/</loc>
+  </url><url>
+    <loc>https://xiaoma8713.github.io/posts/toml%E8%AF%AD%E6%B3%95/</loc>
+  </url><url>
+    <loc>https://xiaoma8713.github.io/</loc>
+  </url><url>
+    <loc>https://xiaoma8713.github.io/posts/go/%E6%AF%8F%E6%97%A5%E4%B8%80%E5%BA%93%E4%B9%8Bcobra/</loc>
+  </url><url>
+    <loc>https://xiaoma8713.github.io/posts/go/%E6%AF%8F%E6%97%A5%E4%B8%80%E5%BA%93%E4%B9%8Bstrings/</loc>
+  </url>
+</urlset>

@@ -1,61 +1,53 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>2021-03 on 小马成长记</title><link>https://xiaoma8713.github.io/tags/2021-03/</link><description>Recent content in 2021-03 on 小马成长记</description><generator>Hugo -- gohugo.io</generator><language>en</language><atom:link href="https://xiaoma8713.github.io/tags/2021-03/index.xml" rel="self" type="application/rss+xml"/><item><title>hugo结合githubpage部署个人网站</title><link>https://xiaoma8713.github.io/posts/%E4%BD%BF%E7%94%A8hugo/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://xiaoma8713.github.io/posts/%E4%BD%BF%E7%94%A8hugo/</guid><description>hugo 下载hugo 选择指定版本 https://github.com/gohugoio/hugo/releases
-使用Hugo hugo new site /path/to/quickstart
-cd /path/to/quickstart
-hugo server #默认localhost:1313，访问即可
-选择主题themes 例如：git clone https://github.com/imzeuk/hugo-theme-zozo themes/zozo
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>2021-03 on 小马成长记</title>
+    <link>https://xiaoma8713.github.io/tags/2021-03/</link>
+    <description>Recent content in 2021-03 on 小马成长记</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language><atom:link href="https://xiaoma8713.github.io/tags/2021-03/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>hugo结合githubpage部署个人网站</title>
+      <link>https://xiaoma8713.github.io/posts/%E4%BD%BF%E7%94%A8hugo/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://xiaoma8713.github.io/posts/%E4%BD%BF%E7%94%A8hugo/</guid>
+      <description>hugo 下载hugo 选择指定版本 https://github.com/gohugoio/hugo/releases
+使用Hugo hugo new site /path/to/quickstartcd /path/to/quickstarthugo server #默认localhost:1313，访问即可 选择主题themes 例如：git clone https://github.com/imzeuk/hugo-theme-zozo themes/zozo
 git clone https://github.com/kakawait/hugo-tranquilpeak-theme.git themes/tranquilpeak
 该主题的文档参考：https://github.com/kakawait/hugo-tranquilpeak-theme/blob/master/docs/user.md#tranquilpeak-configuration
-将zozo下的examplesite 所有文件复制到 quickstart下
-然后修改标题等，自定义信息
-打包生成 hugo # 打包到public目录
-hugo中文 参考:https://www.gohugo.org/
+将zozo下的examplesite 所有文件复制到 quickstart下然后修改标题等，自定义信息 打包生成 hugo # 打包到public目录 hugo中文 参考:https://www.gohugo.org/
 githubPage使用 参考：https://pages.github.com/
-上传到github #接hugo
-cd public
-git init
-git remote add origin 你的仓库地址
-git add .
-git commit -m&amp;quot;description&amp;quot;
-git push -u origin master
-打开yourname.github.io</description></item><item><title>markdown语法</title><link>https://xiaoma8713.github.io/posts/markdown%E8%AF%AD%E6%B3%95/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://xiaoma8713.github.io/posts/markdown%E8%AF%AD%E6%B3%95/</guid><description>&lt;h1 id="headings">Headings&lt;/h1>
-&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-markdown" data-lang="markdown">&lt;span class="gh"># H1
-&lt;/span>&lt;span class="gh">&lt;/span>&lt;span class="gu">## H2
-&lt;/span>&lt;span class="gu">### H3
-&lt;/span>&lt;span class="gu">#### H4
-&lt;/span>&lt;span class="gu">##### H5
-&lt;/span>&lt;span class="gu">###### H6
-&lt;/span>&lt;/code>&lt;/pre>&lt;/div></description></item><item><title>toml语法</title><link>https://xiaoma8713.github.io/posts/toml%E8%AF%AD%E6%B3%95/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://xiaoma8713.github.io/posts/toml%E8%AF%AD%E6%B3%95/</guid><description>介绍 值可以是以下形式字符串、整数、浮点数、布尔值、时间、数组或内联表
-字符串 多行字符串
-str1 = &amp;quot;&amp;quot;&amp;quot;
-文本内容
-&amp;quot;&amp;quot;&amp;quot;
-日期 ldt1 = 1979-05-27T07:32:00
-数组 #数组必须内为同一数据类型
-arr1 = [1, 2, 3]
-arr2 = [&amp;quot;red&amp;quot;, &amp;quot;blue&amp;quot;, &amp;quot;yellow&amp;quot;]
-arr3 = [[1, 2], [3, 4, 5]]
-表格[字典 map] [tab-1]
-key1 = &amp;quot;abc&amp;quot;
-key2 = 321
-#多级嵌套
-[a.b.c]
-key = &amp;quot;hehe&amp;quot;
-内联表 name = { first = &amp;quot;Tom&amp;quot;, last = &amp;quot;Preston-Werner&amp;quot; }
-表格数组 #相当于列表 数组嵌套字典
-[[list]]
-name = &amp;quot;Hammer&amp;quot;
-sku = 738594937
-[[list]]
-[[list]]
-name = &amp;quot;Nail&amp;quot;
-sku = 284758393
-color = &amp;quot;gray&amp;quot;
-对应的json:
-{
-&amp;quot;products&amp;quot;: [
-{ &amp;quot;name&amp;quot;: &amp;quot;Hammer&amp;quot;, &amp;quot;sku&amp;quot;: 738594937 },
-{ },
-{ &amp;quot;name&amp;quot;: &amp;quot;Nail&amp;quot;, &amp;quot;sku&amp;quot;: 284758393, &amp;quot;color&amp;quot;: &amp;quot;gray&amp;quot; }
-]
-}
-注意 TOML 文件必须使用 .toml 来作为其扩展名</description></item></channel></rss>
+上传到github #接hugocd publicgit initgit remote add origin 你的仓库地址git add .git commit -m&amp;quot;description&amp;quot;git push -u origin master 打开yourname.github.io </description>
+    </item>
+    
+    <item>
+      <title>markdown语法</title>
+      <link>https://xiaoma8713.github.io/posts/markdown%E8%AF%AD%E6%B3%95/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://xiaoma8713.github.io/posts/markdown%E8%AF%AD%E6%B3%95/</guid>
+      <description>&lt;h1 id=&#34;headings&#34;&gt;Headings&lt;/h1&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span class=&#34;gh&#34;&gt;# H1
+&lt;/span&gt;&lt;span class=&#34;gh&#34;&gt;&lt;/span&gt;&lt;span class=&#34;gu&#34;&gt;## H2
+&lt;/span&gt;&lt;span class=&#34;gu&#34;&gt;### H3
+&lt;/span&gt;&lt;span class=&#34;gu&#34;&gt;#### H4
+&lt;/span&gt;&lt;span class=&#34;gu&#34;&gt;##### H5
+&lt;/span&gt;&lt;span class=&#34;gu&#34;&gt;###### H6
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+    </item>
+    
+    <item>
+      <title>toml语法</title>
+      <link>https://xiaoma8713.github.io/posts/toml%E8%AF%AD%E6%B3%95/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://xiaoma8713.github.io/posts/toml%E8%AF%AD%E6%B3%95/</guid>
+      <description>介绍 值可以是以下形式字符串、整数、浮点数、布尔值、时间、数组或内联表
+字符串  多行字符串
+ str1 = &amp;quot;&amp;quot;&amp;quot;文本内容&amp;quot;&amp;quot;&amp;quot; 日期 ldt1 = 1979-05-27T07:32:00 数组 #数组必须内为同一数据类型arr1 = [1, 2, 3]arr2 = [&amp;quot;red&amp;quot;, &amp;quot;blue&amp;quot;, &amp;quot;yellow&amp;quot;]arr3 = [[1, 2], [3, 4, 5]] 表格[字典 map] [tab-1]key1 = &amp;quot;abc&amp;quot;key2 = 321#多级嵌套[a.b.c]key = &amp;quot;hehe&amp;quot; 内联表 name = { first = &amp;quot;Tom&amp;quot;, last = &amp;quot;Preston-Werner&amp;quot; } 表格数组 #相当于列表 数组嵌套字典[[list]]name = &amp;quot;Hammer&amp;quot;sku = 738594937[[list]][[list]]name = &amp;quot;Nail&amp;quot;sku = 284758393color = &amp;quot;gray&amp;quot; 对应的json:
+{&amp;quot;products&amp;quot;: [{ &amp;quot;name&amp;quot;: &amp;quot;Hammer&amp;quot;, &amp;quot;sku&amp;quot;: 738594937 },{ },{ &amp;quot;name&amp;quot;: &amp;quot;Nail&amp;quot;, &amp;quot;sku&amp;quot;: 284758393, &amp;quot;color&amp;quot;: &amp;quot;gray&amp;quot; }]} 注意 TOML 文件必须使用 .toml 来作为其扩展名</description>
+    </item>
+    
+  </channel>
+</rss>
